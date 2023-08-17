@@ -19,7 +19,7 @@ export interface Book {
 
 const useBooks = (bookQuery: BookQuery) =>
   useData<Book>(
-    "/books",
+    "/games",
     {
       params: {
         genres: bookQuery.genre?.id,
